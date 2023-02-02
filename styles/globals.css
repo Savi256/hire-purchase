@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.project-green-text {
+    color: #0CF90C;
+}
+#btn{
+    background-color: #0CF90C;
+}
+/* .navbar-logo,.navbar-home{
+	color:#fff;
+} */
+.nav-items-link{
+    border-bottom:1px solid #383838;
+    padding:1rem;
+    margin:0;
+    font-size:1rem;
+}
+.nav-items-link:hover{
+    background:#333;
+    transition:background 0.6s ease;
+}
+.nav-items-link-times{
+    font-size:1.8rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+/* form fileds styles */
+.form-container label{
+    font-weight:bold;
+    margin:0;
+}
+.form-container label:after{
+    content:":";
+}
+.nin-input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+    }
+
+
+
+
+
+/* Main Body styles */
+.caption-header{
+color:#16FF02;
+font-weight:600;
+}
+
+
+
+
+
+/* Footer styles */
+.footer-bg{
+background-color:red;
+}
+
