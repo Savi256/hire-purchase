@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: npm run dev
       - uses: FirebaseExtended/action-hosting-deploy@v0
-       - run: npm run dev
+       
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_HIRE_PURCHASE_362108 }}"
